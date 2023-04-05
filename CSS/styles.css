@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap'); /*Police texte*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');/*police Dowload*/
+/*url image:https://i.ibb.co/Zd7k0tg/the-sword-logo.png*/
+/* url image vide:https://i.ibb.co/K7StPxZ/img-vide.png*/ 
 
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 nav {
@@ -12,9 +15,56 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border-bottom: 100px solid #383A3A;
+    /*border-block: 20px solid #383A3A;*/
+    background-color: #383A3A;
 }
 
 nav h1 {
+    font-family: 'Merriweather', sans-serif;
+    color: #ffffff;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 350px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px ;   
+}
 
+header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color:#383A3A;
+   background-size: cover;
+   color: #fff;
+   padding: 70px;
+}
+
+header h4{
+    text-align: centrer;
+    border-bottom: 1px solid #fff;
+}
+
+header button{
+    padding: 10px 20px;
+    background-color: #383A3A;
+    color: #fff;
+    /*border: none*/;
+    font-size: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    cursor: pointer;
+}
+
+main{
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 600px){
+    nav .onglets{
+        margin-left: 0px;
+    }
 }
