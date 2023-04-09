@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');/*police Dowload*/
 /*url image:https://i.ibb.co/Zd7k0tg/the-sword-logo.png*/
 /* url image vide:https://i.ibb.co/K7StPxZ/img-vide.png*/ 
+/* url img vide redim : https://i.ibb.co/NV2VzCt/img-vide-redim.png */
 
 body{
     margin: 0px;
@@ -84,9 +85,24 @@ header button{
     width: 400px;
 }
 
+.main2{
+    background-color: #383A3A;
+}
 
-@media screen and (max-width: 600px){
-    nav .onglets{
-        margin-left: 0px;
-    }
+.main2 .content2 .game .titre{
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.main2 .content2 .game .imgt{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 350px;
+}
+
+.main2 .content2 .game .txt{
+    color: #383A3A;
 }
