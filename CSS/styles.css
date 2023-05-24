@@ -176,7 +176,7 @@ header button{
     color: #fff;
     display: flex;
     text-align: start;
-    padding-left: 100px;
+    padding-left: 150px; /* initialement 100*/
     font-size: 12px;
  }
  .main3 .content3 .Team .pres .pjack{
@@ -198,8 +198,13 @@ header button{
 
  .main3 .content3 .Team .pres{
     font-family: 'Roboto Mono', sans-serif;
+    /*display: flex;
+    flex-direction: row;*/
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    height: 250px;
  }
 
  .main3 .content3 .Team .amargin{
@@ -272,12 +277,16 @@ header button{
  }
 
  .main5 .content5 .imgL1{
+    /*display: flex;
+    flex-direction: row;
+    padding-top: 50px;*/
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
+    justify-content: space-around;
+    height: 250px;
  }
 
- .main5 .content5 .imgL1 .img1{
+ /*.main5 .content5 .imgL1 .img1{
     margin-left: 180px;
  }
  .main5 .content5 .imgL1 .img2{
@@ -285,15 +294,19 @@ header button{
  }
  .main5 .content5 .imgL1 .img3{
     margin-left: 50px;
- }
+ }*/
 
  .main5 .content5 .imgL2{
+    /*display: flex;
+    flex-direction: row;
+    padding-top: 50px;*/
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
+    justify-content: space-around;
+    height: 250px;
  }
 
-.main5 .content5 .imgL2 .img4{
+/*.main5 .content5 .imgL2 .img4{
     margin-left: 80px;
  }
 
@@ -303,5 +316,5 @@ header button{
 
  .main5 .content5 .imgL2 .img6{
     margin-left: 40px;
- }
+ }*/
  @media only screen and (max-width: 600px) {}
