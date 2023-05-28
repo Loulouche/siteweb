@@ -20,25 +20,25 @@ body{
 nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    /*border-block: 20px solid #383A3A;*/
     background-color: #383A3A;
 }
 
 nav h1 {
     font-family: 'Merriweather', sans-serif;
     color: #ffffff;
+    text-align: start;
 }
 nav .onglets{
     margin-top: 3px;
     margin-left: 350px;
+    text-align: end;
 }
 nav .onglets a{
     text-decoration: none;
     color: #ffffff;
     margin-right: 20px ;   
 }
+
 
 header{
    display: flex;
@@ -84,20 +84,19 @@ header button{
 }
 .main .content .Story.right-img{
     flex: 0 0 70%;
-}
-
-.main .content .Story .right-img{
     height: 300px;
     width: 400px;
     margin-bottom: 40px;
 }
 
+
 .main2{
     background-color: #383A3A;
-
+    padding-bottom: 100px;
 }
 
 .main2 .content2 .game .titre{
+    padding-top: 20px;
     margin-top: 50px;
     text-align: center;
     color: #fff;
@@ -121,95 +120,24 @@ header button{
     background-color: #383A3A;
 }
 
-.main3 .content3 .Team .margin{
-    color: #383A3A;
+.main3 .Titre{
+   text-align: center;
+   color: #ffffff;
 }
- .main3 .content3 .Team .Titre{
-    text-align: center;
-    color: #fff;
-    font-family: 'Roboto Mono', sans-serif;
- }
 
- .main3 .content3 .Team .imge{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 250px;
- }
+.main3 .team{
+   margin-top: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding-bottom: 50px;
+   color: #fff;
+}
 
- .main3 .content3 .Team .marge{
-    color: #383A3A;
- }
-
- .main3 .content3 .Team .Prenom{
+.main3 .content3 .team .cecilia .h1
+{
     font-size: 12px;
-    color: #fff;
-    font-family: 'Roboto Mono', sans-serif;
-    text-align: right;
-    display: flex;
-    flex-direction: row;
- }
-
- .main3 .content3 .Team .Prenom .Cecilia{
-    margin-left: 38px;
- }
- .main3 .content3 .Team .Prenom .Louise{
-    margin-left: 90px;
- }
- .main3 .content3 .Team .Prenom .Jack{
-    margin-left: 125px;
- }
- .main3 .content3 .Team .Prenom .Louis{
-    margin-left: 125px;
- }
-
- .main3 .content3 .Team .pres .pcecilia{
-    color: #fff;
-    display: flex;
-    text-align: start;
-    padding-top: 10px;
-    padding-left: 50px;
-    font-size: 12px;
- }
- .main3 .content3 .Team .pres .plouise{
-    color: #fff;
-    display: flex;
-    text-align: start;
-    padding-left: 150px; /* initialement 100*/
-    font-size: 12px;
- }
- .main3 .content3 .Team .pres .pjack{
-    color: #fff;
-    display: flex;
-    text-align: start;
-    font-size: 12px;
-    padding-left: 80px;
- }
- .main3 .content3 .Team .pres .plouis{
-    color: #fff;
-    display: flex;
-    text-align: start;
-    padding-top: 10px;
-    padding-right: 50px;
-    padding-left: 80px;
-    font-size: 12px;
- }
-
- .main3 .content3 .Team .pres{
-    font-family: 'Roboto Mono', sans-serif;
-    /*display: flex;
-    flex-direction: row;*/
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 250px;
- }
-
- .main3 .content3 .Team .amargin{
-    color: #383A3A;
- }
+}
 
  .main4 .content4{
     background-color: #383A3A;
@@ -223,22 +151,15 @@ header button{
  
 
  .main4 .content4 .bouttons{
-    /*display: flex;
-    flex-direction: row;*/
-    /*margin-top: 30px;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
  }
 
  .main4 .content4 .bouttons .boutton1 button{
-     /*margin-bottom: 50PX;
-    margin-left: 250px;*/
-    margin-right: 50px;
     padding: 10px 20px;
     background-color: #383A3A;
     color: #fff;
-    /*border: none*/;
     font-size: 15px;
     font-family: 'Rajdhani', sans-serif;
     cursor: pointer;
@@ -246,11 +167,9 @@ header button{
 
  .main4 .content4 .bouttons .boutton2 button{
    margin-bottom: 50px;
-   /*margin-right: 50px;*/
    padding: 10px 20px;
    background-color: #383A3A;
    color: #fff;
-   /*border: none*/;
    font-size: 15px;
    font-family: 'Rajdhani', sans-serif;
    cursor: pointer;
@@ -258,7 +177,6 @@ header button{
 
  .main4 .content4 .bouttons .bouton3 button{
    margin-bottom: 50px;
-   /*margin-right: 50px;*/
    padding: 10px 20px;
    background-color: #383A3A;
    color: #fff;
@@ -278,47 +196,22 @@ header button{
 
  .main5 .content5 .Titre{
     text-align: center;
+    padding-top: 20px;
  }
 
  .main5 .content5 .imgL1{
-    /*display: flex;
-    flex-direction: row;
-    padding-top: 50px;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 250px;
  }
 
- /*.main5 .content5 .imgL1 .img1{
-    margin-left: 180px;
- }
- .main5 .content5 .imgL1 .img2{
-    margin-left: 50px;
- }
- .main5 .content5 .imgL1 .img3{
-    margin-left: 50px;
- }*/
 
  .main5 .content5 .imgL2{
-    /*display: flex;
-    flex-direction: row;
-    padding-top: 50px;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 250px;
  }
-
-/*.main5 .content5 .imgL2 .img4{
-    margin-left: 80px;
- }
-
- .main5 .content5 .imgL2 .img5{
-    margin-left: 50px;
- }
-
- .main5 .content5 .imgL2 .img6{
-    margin-left: 40px;
- }*/
- @media only screen and (max-width: 600px) {}
+ 
+ @media (max-width: 414px) {}
