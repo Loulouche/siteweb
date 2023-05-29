@@ -202,6 +202,10 @@ header button{
     cursor: pointer;
  }
 
+ .timeline{
+    text-align: center;
+ }
+
  .main5 .content5 .Titre{
     text-align: center;
     padding-top: 20px;
